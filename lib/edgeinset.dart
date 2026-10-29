@@ -10,7 +10,7 @@ class Edgeinsets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Loremas_Task4_Edgeinsets')),
+      appBar: AppBar(title: const Text('Felecilda_Task4_Edgeinsets')),
       body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(vertical: 16.0),
         child: Column(
