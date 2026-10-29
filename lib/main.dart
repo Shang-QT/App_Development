@@ -1,6 +1,8 @@
 import 'package:application_development/crossalignment.dart';
 import 'package:application_development/edgeinset.dart';
 import 'package:application_development/pavlova.dart';
+import 'package:application_development/login.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,8 +18,9 @@ class MyApp extends StatelessWidget {
       // locale: DevicePreview.locale(context),
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const CrossAlignmentPage(),
+      // home: const CrossAlignmentPage(),
       // home: const Edgeinsets(),
+      home: const LogInPage(),
     );
   }
 }
